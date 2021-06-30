@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pérez & Asociados</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-+0n0xVW2eSR5OomGNYDnhzAbDsOXxcvSN1TPprVMTNDbiYZCxYbOOl7+AMvyTG2x" crossorigin="anonymous">
+    <link rel="stylesheet" href="css/estilos.css">
+</head>
+
+<body>
+    <h1 class="text-center text-white text-uppercase" id="inicio">
+        Estudio Pérez & Asociados
+    </h1>
+
+    <header class="container rounded text-center mb-2">
+        <div class="row fs-3">
+            <div class="col"><a href="#nosotros">Nosotros</a></div>
+            <div class="col"><a href="#familias">Familias</a></div>
+            <div class="col"><a href="#empresas">Empresas</a></div>
+            <div class="col"><a href="#sucesiones">Sucesiones</a></div>
+            <div class="col"><a href="#quiebras">Quiebras</a></div>
+            <div class="col"><a href="#contactos">Contactos</a></div>
+        </div>
+    </header>
+
+    <section class="container rounded" id="nosotros">
+        <h2>Nosotros</h2>
+        <img src="img/nosotros.jpg" alt="Nosotros">
+        <p class="fs-4">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Neque a hic aperiam placeat iusto adipisci unde! Numquam quas, laudantium voluptates magni ipsam, impedit tempore ad quidem sequi placeat exercitationem aut.</p>
+        <div><a href="#inicio">Volver</a></div>
+    </section>
+
+    <section class="container rounded" id="familias">
+        <h2>Familias</h2>
+        <img src="img/familia.jpg" alt="Familias">
+        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Porro minus fugit vel maiores nesciunt ducimus quibusdam sapiente iste molestias? Sed culpa velit officiis commodi aliquid illum fugiat nobis at saepe!</p>
+        <div><a href="#inicio">Volver</a></div>
+    </section>
+
+    <section class="container rounded" id="empresas">
+        <h2>Empresas</h2>
+        <img src="img/empresas.jpg" alt="Empresas">
+        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis voluptatem accusantium recusandae, provident fugiat veniam culpa asperiores tenetur iste aliquam similique quas cumque consequuntur facilis eius, tempore, beatae quos est!</p>
+        <div><a href="#inicio">Volver</a></div>
+    </section>
+
+    <section class="container rounded" id="sucesiones">
+        <h2>Sucesiones</h2>
+        <img src="img/sucesiones.jpg" alt="Sucesiones">
+        <p class="fs-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Non impedit nemo deserunt, expedita, aperiam inventore illum adipisci omnis quod voluptatibus eos vitae qui odio incidunt neque? Dolor tempora soluta asperiores.</p>
+        <div><a href="#inicio">Volver</a></div>
+    </section>
+
+    <section class="container rounded" id="quiebras">
+        <h2>Quiebras</h2>
+        <img src="img/quiebras.jpg" alt="Quiebras">
+        <p class="fs-4">Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cum voluptate beatae corporis at nostrum necessitatibus voluptatum tenetur, quo officia vel dolorem ut itaque quos voluptatem, commodi eveniet tempore numquam eaque.</p>
+        <div><a href="#inicio">Volver</a></div>
+    </section>
+
+    <section class="container rounded" id="contactos">
+        <h2>Contactos</h2>
+        <img src="img/contactos.jpg" alt="Contactos">
+        <p>Envíenos su consulta</p>
+        <form action="mailto:contacto@perez&asociados.com?Subject=Nuevo correo" method="POST" id="formContacto">
+        <div><span>Nombre y Apellido</span>
+            <input type="text" name="nombre" placeholder="Completar..." required>
+        </div>
+
+        <div>
+            <label>
+                <span>D.N.I. N°</span>
+                <input type="number" name="caracteristica" placeholder="documento" required>
+                </label>
+        </div>
+
+        <div>
+            <label>
+                <span>Celular (0</span>
+                <input type="number" name="caracteristica" placeholder="área" required>
+                <span>) 15-</span>
+                <input type="number" name="numero" placeholder="número" required>
+                </label>
+        </div>
+
+        <div>
+            <span>Compañía: </span>
+            <span>Claro</span>
+            <label>
+                <input type="radio" name="empresa" value="Claro">
+            </label>
+            <span>Movistar</span>
+            <label>
+                <input type="radio" name="empresa" value="Movistar">
+            </label>
+            <span>Nextel</span>
+            <label>
+                <input type="radio" name="empresa" value="Nextel">
+            </label>
+            <span>Personal</span>
+            <label>
+                <input type="radio" name="empresa" value="Personal">
+            </label>
+        </div>
+
+        <div>
+            <label>
+                <span>Correo Electrónico</span>
+                <input type="email" name="email" placeholder="ejemplo@mail.com" required>
+                </label>
+        </div>
+
+        <div>
+            <span>Departamento</span>
+            <select name="departamento">
+                <option value="">Seleccionar...</option>
+                <option value="01">Familias</option>
+                <option value="02">Empresas</option>
+                <option value="03">Sucesiones</option>
+                <option value="04">Quiebras</option>
+                <option value="05">Otros</option>
+            </select>
+        </div>
+
+        <div>
+            <label>
+                <span>Mensaje</span>
+                <textarea name="mensaje" required placeholder="Escriba su consulta..."></textarea>
+            </label>
+        </div>
+
+        <input type="submit" value="Enviar">
+        </form>
+
+        <div><a href="#inicio">Volver</a></div>
+    </section>
+
+    <footer class="text-center mt-2">
+        <p>&copy; 2021 - Todos los derechos reservados</p>
+        <p>Desarrolado por <a href="mailto:yo@mail.com">Lucas Gómez Tonsich</a></p>
+    </footer>
+
+    <!-- Bootstrap -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.1/dist/js/bootstrap.bundle.min.js" integrity="sha384-gtEjrD/SeCtmISkJkNUaaKMoLD0//ElJ19smozuHV6z3Iehds+3Ulb9Bn9Plx0x4" crossorigin="anonymous"></script>
+
+</body>
+</html>

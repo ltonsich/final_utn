@@ -1,0 +1,28 @@
+a{text-decoration: none; color: #000}
+img{width: 800px}
+h1{background: #04476e; transition-duration: 1s; font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif}
+header{background: #085d8f; transition-duration: 1s}
+     header:hover{background: #04476e}
+#nosotros{background: #0f6da3; transition-duration: 1s}
+     #nosotros:hover{background: #04476e; color: whitesmoke}
+#familias{background: #0a85cc; transition-duration: 1s}
+     #familias:hover{background: #04476e; color: whitesmoke}
+#empresas{background: #1381c5; transition-duration: 1s}
+     #empresas:hover{background: #04476e; color: whitesmoke}
+#sucesiones{background: #1d88ca; transition-duration: 1s}
+     #sucesiones:hover{background: #04476e; color: whitesmoke}
+#quiebras{background: #2994d6; transition-duration: 1s}
+     #quiebras:hover{background: #04476e; color: whitesmoke}
+#contactos{background: #369ddd; transition-duration: 1s}
+     #contactos:hover{background: #04476e; color: whitesmoke}
+footer{background: #085d8f; transition-duration: 1s}
+
+@keyframes arriba{0%{transform: translateY(2000%)}100%{transform: translateY(0%)}}
+header{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 0}
+#nosotros{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 0.2s}
+#familias{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 0.4s}
+#empresas{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 0.6s}
+#sucesiones{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 0.8s}
+#quiebras{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.0s}
+#contactos{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.2s}
+footer{animation-name: arriba; animation-duration: 2s; animation-fill-mode: backwards; animation-delay: 1.4s}
